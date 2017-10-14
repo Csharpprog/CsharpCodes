@@ -1,0 +1,29 @@
+using System;
+namespace beging
+{
+    class program
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine(" Welcome to C# This is the first project ");
+            int x, y, z;
+            float Res,avg;
+            Console.WriteLine("Enter the first value = ");
+            x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the second value = ");
+            y = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the third value = ");
+            z = int.Parse(Console.ReadLine());
+            Res = x + y + z;
+            Console.WriteLine("The result of Summation is = ");
+            Console.WriteLine(Res);
+            avg = Res / 3;
+            Console.WriteLine("The Average is = ");
+            Console.WriteLine(avg);
+            Console.ReadKey();
+        }
+    }
+}
