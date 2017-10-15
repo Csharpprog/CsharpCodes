@@ -1,0 +1,25 @@
+using System;
+namespace Cgoole
+{
+	class progrm
+	{
+		static void Main(string[] args)
+		{
+		Console.Title="C# ";
+		Console.BackgroundColor= ConsoleColor.Cyan;
+		Console.ForegroundColor=ConsoleColor.Black;
+		int x,y,z,w;
+		Console.Write("Enter the first value= ");
+		x=int.Parse(Console.ReadLine());
+		Console.Write("Enter the second value= ");
+		y=int.Parse(Console.ReadLine());
+		Console.Write("Enter the third value= ");
+		z=int.Parse(Console.ReadLine());
+		w=x*y*z;
+		Console.WriteLine("\n");
+		Console.Write("The result of multiplicationis="+ " " + w);
+		Console.ReadKey();
+		
+		}
+	}
+}
