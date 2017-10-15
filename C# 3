@@ -1,0 +1,33 @@
+using System;
+namespace Cgoole
+{
+	class progrm
+	{
+		static void Main(string[] args)
+		{
+		Console.Title="C# ";
+		Console.BackgroundColor= ConsoleColor.Cyan;
+		Console.ForegroundColor=ConsoleColor.Black;
+		int x,y,z,w,mi,b;
+		float mo;
+		Console.Write("Enter the first value= ");
+		x=int.Parse(Console.ReadLine());
+		Console.Write("Enter the second value= ");
+		y=int.Parse(Console.ReadLine());
+		Console.Write("Enter the third value= ");
+		z=int.Parse(Console.ReadLine());
+		w=x*y*z;
+		Console.WriteLine("\n");
+		Console.Write("The result of multiplicationis="+ " " + w);
+		mo=w%2;
+		Console.WriteLine("\n");
+		Console.WriteLine("The Mode is="+ " " + mo);
+		Console.WriteLine("\n");
+		Console.Write("Enter the value of b= ");
+		b=int.Parse(Console.ReadLine());
+		mi=w-b;
+		Console.WriteLine("The resulte of minus is=" + " " + mi);
+		Console.ReadKey();
+		}
+	}
+}
