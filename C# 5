@@ -1,0 +1,24 @@
+using System;
+namespace condo
+{
+	class sco
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Yellow;
+			Console.ForegroundColor= ConsoleColor.Black;
+			int x,y,z;
+			float Res;
+			Console.WriteLine("Enter the first value= ");
+			x=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the second value= ");
+			y=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the second value= ");
+			z=int.Parse(Console.ReadLine());
+			Res=((float)x-(float)y)/(float)z;
+			Console.WriteLine("The result is= " + Res);
+			Console.ReadKey();
+		}
+	}
+}
