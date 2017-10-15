@@ -1,0 +1,26 @@
+using System;
+namespace g4g
+{
+	class ss 
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+            Console.BackgroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Black;
+            int x,y,z;
+            float l,Res;
+            Console.WriteLine("Enter the first value= ");
+            x=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the second value= ");
+            y=int.Parse(Console.ReadLine());
+            z=x+y;
+            Console.WriteLine("The result of Summation is="+ " " + z);
+            Console.WriteLine("Enter any Float value= ");
+            l=float.Parse(Console.ReadLine());
+            Res=z-l;
+            Console.WriteLine("The result of minus is="+ " " + Res);
+            Console.ReadKey();
+		}
+	}
+}
