@@ -1,0 +1,23 @@
+using System;
+namespace worl
+{
+	class work
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor= ConsoleColor.Yellow;
+			int x,y,z;
+			string t;
+			Console.WriteLine("Enter the first value= ");
+			x=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the second value= ");
+			y=int.Parse(Console.ReadLine());
+			z=x+y;
+			t=z>=50? "Hi" : "The value of z=\n" + (z+100) ;
+			Console.WriteLine(t);
+			Console.ReadKey();
+		}
+	}
+}
