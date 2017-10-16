@@ -1,0 +1,32 @@
+using System;
+namespace Csharp5c
+{
+	class cshaprogramm
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Magenta;
+			int i,j;
+			string t;
+			Console.WriteLine("Enter your Name: ");
+			t=Console.ReadLine();
+			Console.WriteLine("\n");
+			for(i=0;i<=10;i++)
+			{
+				for(j=0;j<=10;j++)
+				{
+					Console.WriteLine("\n" + i +"*"+ j +"="+ (i*j));
+				}
+				Console.Write("\n");
+				Console.WriteLine("|-----|----|");
+				Console.WriteLine("|-----|----|");
+				Console.WriteLine("|-----|----|");
+				Console.WriteLine("|_____|____|");                                   
+			}
+			
+			Console.ReadKey();
+		}
+	}
+}
