@@ -1,0 +1,40 @@
+using System;
+namespace star
+{
+	class bstr
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int x,y,z;
+			Console.WriteLine("Enter the first value= ");
+			x=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the second value= ");
+			y=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the third value= ");
+			z=int.Parse(Console.ReadLine());
+			if(x>y)
+			{
+				if(x>z)
+				{
+				Console.WriteLine(x + " Is the biggest value");
+				}
+			}
+			else 
+				if(y>x)
+			{
+				if(y>z)
+				{
+				Console.WriteLine(y + " Is the biggest value");	
+				}
+				
+				else
+					
+				Console.WriteLine(z + " Is the biggest value");
+			}
+			Console.ReadKey();
+		}
+	}
+}
