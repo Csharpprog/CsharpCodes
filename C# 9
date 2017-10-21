@@ -1,0 +1,46 @@
+using System;
+namespace monthy
+{
+	class month
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor= ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int Month;
+			Console.WriteLine("Enter number of Month= ");
+			Month=int.Parse(Console.ReadLine());
+			switch(Month)
+			{
+					case 1:Console.WriteLine("This month is January NO. of days is = 31 day");
+					break;
+				    case 2:Console.WriteLine("This month is February NO. of days is = 28 day");
+				    break;
+				    case 3:Console.WriteLine("This month is March NO. of days is = 31 day");
+				    break;
+				    case 4:Console.WriteLine("This month is April NO. of days is = 30 day");
+				    break;
+				    case 5:Console.WriteLine("This month is May NO. of days is = 31 day");
+				    break;
+				    case 6:Console.WriteLine("This month is June NO. of days is = 30 day");
+				    break;
+				    case 7:Console.WriteLine("This month is July NO. of days is = 31 day");
+				    break;
+				    case 8:Console.WriteLine("This month is August NO. of days is = 31 day");
+				    break;
+				    case 9:Console.WriteLine("This month is September NO. of days is = 30 day");
+				    break;
+				    case 10:Console.WriteLine("This month is October NO. of days is = 31 day");
+				    break;
+				    case 11:Console.WriteLine("This month is November NO. of days is = 30 day");
+				    break;
+				    case 12:Console.WriteLine("This month is December NO. of days is = 31 day");
+				    break;
+				    default:Console.WriteLine("You are Enter wrong choice");
+				    break;
+			}
+			Console.ReadKey();
+		}
+	}
+}
