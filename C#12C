@@ -1,0 +1,22 @@
+using System;
+namespace tool
+{
+	class toprog
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,j;
+			for(i=0;i<10;i++)
+			{
+				for(j=0;j<5;j++)
+				{
+					Console.Write("*\t");
+				}
+			}
+			Console.ReadKey();
+		}
+	}
+}
