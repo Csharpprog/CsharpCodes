@@ -1,0 +1,23 @@
+using System;
+namespace star
+{
+	class prigg
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,j;
+			for(i=5;i>=0;i--)
+			{
+			for(j=0;j<=i;j++)
+			
+			Console.Write("*");
+			Console.Write("\n");
+			}
+			
+			Console.ReadKey();
+		}
+	}
+}
