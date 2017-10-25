@@ -1,0 +1,25 @@
+using System;
+namespace star
+{
+	class sghw
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,j;
+			for(i=0;i<=10;i++)
+			{
+				for(j=0;j<=10-i;j++)
+					Console.Write(" ");
+				for(j=0;j<=i;j++)
+					Console.Write("*");
+				for(j=i-1;j>=0;j--)
+					Console.Write("*");
+				    Console.Write("\n");
+			}
+			Console.ReadKey();
+		}
+	}
+}
