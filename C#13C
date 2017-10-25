@@ -1,0 +1,22 @@
+using System;
+
+namespace tools
+{
+    class strat
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i;
+            int sum = 0;
+            for (i = 0; i <= 10; i++)
+            {
+                sum+=i;
+                Console.WriteLine("The summation is= "+ sum);
+            }
+             Console.ReadKey();
+        }
+    }
+}
