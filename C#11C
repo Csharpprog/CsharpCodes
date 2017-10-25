@@ -1,0 +1,20 @@
+using System;
+namespace start
+{
+    class ewar
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            int x,sum=0;
+            Console.WriteLine("Enter value of x= ");
+            x = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= x; i++)
+            {
+                sum += x;
+                Console.WriteLine("The result is= "+ sum);
+            }
+            Console.ReadKey();
+        }
+    }
+}
