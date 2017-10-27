@@ -1,0 +1,28 @@
+using System;
+namespace starthome
+{
+	class progbegin
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,x;
+			Console.Write("Input a number: ");
+			x=int.Parse(Console.ReadLine());
+			Console.Write("The numbers:  ");
+			for(i=1;i<=x;i++)
+			{
+				Console.Write(i);
+			}
+			Console.Write("\nThe numbers in reverse order is : " );
+			
+			for(i=x;i>=1;i--)
+			{
+				Console.Write(i);
+			}
+			Console.ReadKey();
+		}
+	}
+}
