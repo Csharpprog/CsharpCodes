@@ -1,0 +1,26 @@
+using System;
+namespace tooui
+{
+    class hooly
+    {
+        static void Main(String[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i,j,x;
+            Console.WriteLine("Enter j col= ");
+            x=int.Parse(Console.ReadLine());
+            for(i=0;i<=10;i++)
+            {
+            	for(j=0;j<=x-1;j++)
+                {
+                        Console.Write("{0}*{1}={2} |",j,i,i*j);
+            		
+                }
+                Console.Write("\n");
+            }
+            Console.ReadKey();
+        }
+    }
+}
