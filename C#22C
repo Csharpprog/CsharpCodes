@@ -1,0 +1,27 @@
+using System;
+namespace sharp
+{
+	class Csharp
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,x,sum=0;
+			Console.WriteLine("Enter the lowest value of x= ");
+			x=int.Parse(Console.ReadLine());
+			for(i=0;i<=x;i+=2)
+			{
+				sum+=i;
+			}
+			Console.Write("The summation values= ");
+			for(i=x;i>=0;i--)
+			{
+				Console.Write("\n" + (i--) );
+			}
+			Console.WriteLine("\nThe summation values under= "+ x +" is= "+sum);
+			Console.ReadKey();
+		}
+	}
+}
