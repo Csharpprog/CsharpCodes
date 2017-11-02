@@ -1,0 +1,26 @@
+using System;
+namespace sharp
+{
+class csharp
+{
+static void Main(string[] args)
+{
+Console.Title="C# ";
+Console.BackgroundColor=ConsoleColor.Black;
+Console.ForegroundColor=ConsoleColor.Yellow;
+int i,x,j,sum=0,n;
+float avg;
+Console.WriteLine("Enter number of Student= ");
+x=int.Parse(Console.ReadLine());
+for(i=1;i<=x;i++)
+{
+n=int.Parse(Console.ReadLine());
+sum+=n;
+}
+Console.WriteLine(" The summation is= " + sum);
+avg=sum/x;
+Console.WriteLine(" The Average is= " + avg);
+Console.ReadKey();
+}
+}
+}
