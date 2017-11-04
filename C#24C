@@ -1,0 +1,18 @@
+using System;
+namespace sharp
+{
+ class csharp
+   {
+       static void Main(string[] args)
+         {
+             Console.Title="C# ";
+             Console.BackgroundColor=ConsoleColor.Black;
+             Console.ForegroundColor=ConsoleColor.Yellow;
+             int x;
+             Console.WriteLine("Enter a decimal number= ");
+             x=int.Parse(Console.ReadLine());
+             Console.WriteLine("The binary number is= " + Convert.ToString(x,2));
+             Console.ReadKey();
+         }
+    }
+}
