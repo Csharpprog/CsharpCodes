@@ -1,0 +1,36 @@
+using System;
+namespace array
+{
+	class csharry
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# Array";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,j,t;
+			int [] x=new int[5];
+			Console.WriteLine("Enter 5 values for array= ");
+			for(i=0;i<x.Length;i++)
+			{
+				x[i]=int.Parse(Console.ReadLine());
+			}
+			for(i=0;i<x.Length;i++)
+			for(j=i+1;j<x.Length;j++)
+			{
+				if(x[i]<x[j])
+				{
+					t=x[i];
+					x[i]=x[j];
+					x[j]=t;
+				}
+			}
+			Console.Write("The array in Descending order is= ");
+			for(i=0;i<x.Length;i++)
+			{
+				Console.Write(x[i] + " ");
+			}
+			Console.ReadKey();
+		}
+	}
+}
