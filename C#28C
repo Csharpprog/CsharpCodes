@@ -1,0 +1,32 @@
+using System;
+namespace array
+{
+	class csharry
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# Array";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			char []x=new char[4];
+			char []y=new char[4];
+			int i;
+			Console.WriteLine("Enter 4 characters: ");
+			for(i=0;i<4;i++)
+			{
+				x[i]=char.Parse(Console.ReadLine());
+			}
+			for(i=0;i<4;i++)
+			{
+				y[i]=char.ToUpper(x[i]);
+			}
+			Console.Write("\n");
+			Console.WriteLine("The array in upper order is: ");
+			for(i=0;i<4;i++)
+			{
+			Console.Write(y[i] + " ");
+			}
+			Console.ReadKey();
+		}
+	}
+}
