@@ -1,0 +1,35 @@
+using System;
+namespace csharp
+{
+    class sharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Yellow;
+            int[,] x = new int[3,3];
+            int i, j,sum=0;
+            Console.Write("Enter array elements= \n");
+            for(i=0;i<x.GetLength(0);i++)
+            {
+                for (j = 0; j < x.GetLength(1); j++)
+                {
+                    x[i, j] = int.Parse(Console.ReadLine());
+                }
+            }
+            for (i = 0; i < x.GetLength(0); i++)
+            {
+                for (j = 0; j < x.GetLength(1); j++)
+                {
+                        if (i==j || i+j==3-1)
+                        {
+                            sum+=x[i,j];
+                        }
+                    }
+                }
+                Console.Write("The sum of main and second diameter= " + sum);
+            Console.ReadKey();
+            }
+        }  
+    } 	
