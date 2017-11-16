@@ -1,0 +1,4229 @@
+using System;
+namespace beging
+{
+    class program
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine(" Welcome to C# This is the first project ");
+            int x, y, z;
+            float Res,avg;
+            Console.WriteLine("Enter the first value = ");
+            x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the second value = ");
+            y = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the third value = ");
+            z = int.Parse(Console.ReadLine());
+            Res = x + y + z;
+            Console.WriteLine("The result of Summation is = ");
+            Console.WriteLine(Res);
+            avg = Res / 3;
+            Console.WriteLine("The Average is = ");
+            Console.WriteLine(avg);
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace beging
+{
+    class program
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine(" Welcome to C# This is the first project ");
+            string w;
+            int x, y, z;
+            float Res,avg;
+            Console.WriteLine("Enter the first value = ");
+            x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the second value = ");
+            y = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the third value = ");
+            z = int.Parse(Console.ReadLine());
+            Res = x + y + z;
+            Console.WriteLine("The result of Summation is = ");
+            Console.WriteLine(Res);
+            avg = Res / 3;
+            Console.WriteLine("Enter the Student Name: ");
+            w = Console.ReadLine();
+            Console.Write("The Average of "+ w +"\n");
+            Console.Write(avg);
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace beging
+{
+    class program
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine(" Welcome to C# This is the first project ");
+            int x, y, z;
+            float Res,avg;
+            Console.WriteLine("Enter the first value = ");
+            x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the second value = ");
+            y = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the third value = ");
+            z = int.Parse(Console.ReadLine());
+            Res = x + y + z;
+            Console.WriteLine("The result of Summation is = ");
+            Console.WriteLine(Res);
+            avg = Res / 3;
+            Console.Write("The Average is = \n");
+            Console.Write(avg);
+            
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace firstb
+{
+	class startfir
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Cyan;
+			Console.ForegroundColor=ConsoleColor.Black;
+			int x,y,w,z,Res,avg;
+			Console.WriteLine("Enter the first value= ");
+			x=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the second value= ");
+			y=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the third value= ");
+			w=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the forth value= ");
+			z=int.Parse(Console.ReadLine());
+			Console.Write("\n");
+			Console.WriteLine("the first v={0} \nthe second v={1} \nthe third v={2} \nthe forth v={3} \n",x,y,w,z);
+			Res=x+y+w+z;
+			Console.WriteLine("The result is= \n"+ Res);
+			avg=Res/4;
+			Console.WriteLine("The Average is= \n"+ avg);
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace Cgoole
+{
+	class progrm
+	{
+		static void Main(string[] args)
+		{
+		Console.Title="C# ";
+		Console.BackgroundColor= ConsoleColor.Cyan;
+		Console.ForegroundColor=ConsoleColor.Black;
+		int x,y,z,w;
+		Console.Write("Enter the first value= ");
+		x=int.Parse(Console.ReadLine());
+		Console.Write("Enter the second value= ");
+		y=int.Parse(Console.ReadLine());
+		Console.Write("Enter the third value= ");
+		z=int.Parse(Console.ReadLine());
+		w=x*y*z;
+		Console.WriteLine("\n");
+		Console.Write("The result of multiplicationis="+ " " + w);
+		Console.ReadKey();
+		
+		}
+	}
+}
+
+
+
+using System;
+namespace Cgoole
+{
+	class progrm
+	{
+		static void Main(string[] args)
+		{
+		Console.Title="C# ";
+		Console.BackgroundColor= ConsoleColor.Cyan;
+		Console.ForegroundColor=ConsoleColor.Black;
+		int x,y,z,w,mi,b;
+		float mo;
+		Console.Write("Enter the first value= ");
+		x=int.Parse(Console.ReadLine());
+		Console.Write("Enter the second value= ");
+		y=int.Parse(Console.ReadLine());
+		Console.Write("Enter the third value= ");
+		z=int.Parse(Console.ReadLine());
+		w=x*y*z;
+		Console.WriteLine("\n");
+		Console.Write("The result of multiplicationis="+ " " + w);
+		mo=w%2;
+		Console.WriteLine("\n");
+		Console.WriteLine("The Mode is="+ " " + mo);
+		Console.WriteLine("\n");
+		Console.Write("Enter the value of b= ");
+		b=int.Parse(Console.ReadLine());
+		mi=w-b;
+		Console.WriteLine("The resulte of minus is=" + " " + mi);
+		Console.ReadKey();
+		}
+	}
+}
+
+
+
+using System;
+namespace g4g
+{
+	class ss 
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+            Console.BackgroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Black;
+            int x,y,z;
+            float l,Res;
+            Console.WriteLine("Enter the first value= ");
+            x=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the second value= ");
+            y=int.Parse(Console.ReadLine());
+            z=x+y;
+            Console.WriteLine("The result of Summation is="+ " " + z);
+            Console.WriteLine("Enter any Float value= ");
+            l=float.Parse(Console.ReadLine());
+            Res=z-l;
+            Console.WriteLine("The result of minus is="+ " " + Res);
+            Console.ReadKey();
+		}
+	}
+}
+
+
+
+using System;
+namespace tsif
+{
+	class iff
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor= ConsoleColor.Yellow;
+			Console.ForegroundColor= ConsoleColor.Black;
+			int x,y,z,w,Res;
+			bool chek,to; 
+			Console.WriteLine("Enter the first value= ");
+			x=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the second value= ");
+			y=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the third value= ");
+			z=int.Parse(Console.ReadLine());
+			Res=x+y+z;
+			Console.WriteLine("The result is= " + Res);
+			                                                                     /*عندما نستخدم ( || ) OR فانه يجب ان يتحقق احد شرطي ال ( if ) 
+			                                                                      * عندما نستخدم ( && ) فانه يجب ان يتحقق كلا الشرطين في ال ( if )
+			                                                                      */
+			if(Res>=70 || Res>=100)
+			{
+				Console.WriteLine("The result is high");
+			}
+			else if(Res<50)
+			{
+				Console.WriteLine("The result is Low");
+			}
+			else
+			{
+				Console.WriteLine("Exit Pleas");
+			}
+			chek =9<3;
+			to=5<9 && 3>1;
+			Console.Write("\n");
+			Console.WriteLine("The result of chek = "+ chek + "\n" +"The result of to= "+ to);
+			Console.ReadKey();
+			
+		}
+	}
+}
+
+
+
+using System;
+namespace condo
+{
+	class sco
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Yellow;
+			Console.ForegroundColor= ConsoleColor.Black;
+			int x,y,z;
+			float Res;
+			Console.WriteLine("Enter the first value= ");
+			x=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the second value= ");
+			y=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the second value= ");
+			z=int.Parse(Console.ReadLine());
+			Res=((float)x-(float)y)/(float)z;
+			Console.WriteLine("The result is= " + Res);
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace worl
+{
+	class work
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor= ConsoleColor.Yellow;
+			int x,y,z;
+			Console.WriteLine("Enter the first value= ");
+			x=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the second value= ");
+			y=int.Parse(Console.ReadLine());
+			z=x+y;
+			switch(z)
+			{
+					case 100 :Console.WriteLine("The result is high");
+					break;
+					case 50:Console.WriteLine("The result is medium");
+					break;
+					default: Console.WriteLine("The value of z= " + z +"\nwe will check it by if condition  ");
+					break;
+			}
+			if(z>100)
+						Console.WriteLine("The result is morethan the requisted");
+					else
+						Console.WriteLine("Please exit");
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace worl
+{
+	class work
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor= ConsoleColor.Yellow;
+			int x,y,z;
+			string t;
+			Console.WriteLine("Enter the first value= ");
+			x=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the second value= ");
+			y=int.Parse(Console.ReadLine());
+			z=x+y;
+			t=z>=50? "Hi" : "The value of z=\n" + (z+100) ;
+			Console.WriteLine(t);
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace worl
+{
+	class work
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor= ConsoleColor.Yellow;
+			int i,j;
+			string t;
+			Console.WriteLine("Enter your Name: ");
+			t=Console.ReadLine();
+			Console.WriteLine("\n");
+			for(i=0;i<=10;i++)
+			{
+				for(j=0;j<=10;j++)
+				{
+					Console.WriteLine(i +"*"+ j +"="+ (i*j));
+				}
+				Console.WriteLine("-------------------\n");
+			}
+			
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+using System;
+namespace projects 
+{
+	class sengleer
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int x,y,z;
+			Console.WriteLine("Enter the first value= ");
+			x=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the second value= ");
+			y=int.Parse(Console.ReadLine());
+			z=x%y;
+			Console.WriteLine("z is= " + z);
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+using System;
+namespace Prog1
+{
+	class Programm
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int x,y,z;
+			Console.WriteLine("Enter the first value= ");
+			x=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the second value= ");
+			y=int.Parse(Console.ReadLine());
+			z=x-y;
+			
+			if(z>0)
+				
+				Console.WriteLine(z + " This Number is Positive");
+			
+			else
+				
+				Console.WriteLine(z + " This Number is Negative");
+			
+			Console.ReadKey();
+			
+		}
+	}
+}
+
+
+
+using System;
+namespace Prog1
+{
+	class Programm
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+		    char a;
+                                          char c;
+
+                                            Console.Write("Enter a Alphabet : ");
+                                            a = Convert.ToChar(Console.ReadLine());
+
+                                            c = Char.ToUpper(a);
+
+                                            if (c.Equals('A') || c.Equals('E') || c.Equals('I') || c.Equals('O') ||
+                                           c.Equals('U'))
+                                           {
+                                               Console.WriteLine("{0} is vowel", a);
+                                           }
+                                    else
+                                           {
+                                              Console.WriteLine("{0} is not vowel", a);
+                                           }
+
+                                         Console.ReadKey();
+        }
+    }
+}
+
+
+
+using System;
+namespace Prog1
+{
+	class Programm
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+		    char x;
+            Console.WriteLine("Enter any letter: ");
+            x=char.Parse(Console.ReadLine());
+            
+            if(char.IsUpper(x))
+            {
+            	Console.WriteLine("This letter is Capital");
+            }
+            else
+            {
+            	Console.WriteLine("This letter is Small");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace Homepayroll
+{
+	class payroll
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int x;
+			string t;
+			int w=10,y=12;   //This is the number of hours that the employee work .
+			Console.WriteLine("Enter the employee name: ");
+			t=Console.ReadLine();
+			Console.WriteLine("Enter the salary= ");
+			x=int.Parse(Console.ReadLine());     //Any number thats enter by user in the execution front represent the cost of salary in Dollar( $ ) 
+			if(x>=w && x<=y) 
+				Console.WriteLine(t + " is the best employee");
+			else
+				Console.WriteLine(t + " is the careless man");
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+
+using System;
+namespace Homepayroll
+{
+	class payroll
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int a,b,c,Product;
+			Console.WriteLine("Enter the first value= ");
+			b=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the second value= ");
+			c=int.Parse(Console.ReadLine());
+			Product=b*c;
+			Console.WriteLine("The value of Production is= " + Product);
+			a=Product;
+			Console.WriteLine("The value of a is= " + a);
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace star
+{
+	class bstr
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int x,y,z;
+			Console.WriteLine("Enter the first value= ");
+			x=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the second value= ");
+			y=int.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the third value= ");
+			z=int.Parse(Console.ReadLine());
+			if(x>y)
+			{
+				if(x>z)
+				{
+				Console.WriteLine(x + " Is the biggest value");
+				}
+			}
+			else 
+				if(y>x)
+			{
+				if(y>z)
+				{
+				Console.WriteLine(y + " Is the biggest value");	
+				}
+				
+				else
+					
+				Console.WriteLine(z + " Is the biggest value");
+			}
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace star
+{
+    class bstr
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            byte x, y, z;
+            int Res;              //هذه يجب ان تكون من نوع integer لان نوع ال byte يحجز مكان صغير قي الذاكرة 
+            Console.WriteLine("Enter the first value= ");
+            x = byte.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the second value= ");
+            y = byte.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the third value= ");
+            z = byte.Parse(Console.ReadLine());
+            Console.Write("\n");
+            Res = x + y + z;
+            Console.WriteLine("The result is= " + Res);
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+using System;
+namespace star
+{
+    class bstr
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            byte x, y, z;
+             sbyte Res; 
+            Console.WriteLine("Enter the first value= ");
+            x = byte.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the second value= ");
+            y = byte.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the third value= ");
+            z = byte.Parse(Console.ReadLine());
+            Console.Write("\n");
+            Res = x + y - z;
+            Console.WriteLine("The result is= " + Res);
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace star
+{
+	class bstr
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			float x,y,z,Res;
+			Console.WriteLine("Enter the first value= ");
+			x=float.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the second value= ");
+			y=float.Parse(Console.ReadLine());
+			Console.WriteLine("Enter the third value= ");
+			z=float.Parse(Console.ReadLine());
+			Console.Write("\n");
+			Res=x+y+z;
+			Console.WriteLine("The result is= " + Res);
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace erth
+{
+	class beginh
+	{
+		static void Main(string[] args)
+		{
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            //Console.WriteLine(" Welcome to C# This is the first project ");
+            long x, y, z;
+            float Res,avg;
+            Console.WriteLine("Enter the first value = ");
+            x = long.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the second value = ");
+            y = long.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the third value = ");
+            z = long.Parse(Console.ReadLine());	
+            Res=x+y+z;
+            Console.WriteLine("The result is= "+ Res);
+            avg=Res/3;
+            Console.WriteLine("The average is= "+ avg);
+            Console.ReadKey();
+		}
+	}
+}
+
+
+
+using System;
+namespace erth
+{
+	class beginh
+	{
+		static void Main(string[] args)
+		{
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            //Console.WriteLine(" Welcome to C# This is the first project ");
+            int x,y,z,w;
+            Console.WriteLine("Enter the first value= ");
+            x=int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the second value= ");
+            y=int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the third value= ");
+            z=int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the fourth value= ");
+            w=int.Parse(Console.ReadLine());
+            if(x>=10 && y<=50)
+            {
+            	if(z>100 && w==90)
+            		Console.WriteLine("This code is call combine if Conditions ");
+            	//else
+                    //Console.WriteLine("Exit");
+            }
+            else
+                    Console.WriteLine("Exit");            
+            Console.ReadKey();
+	}
+ }
+}
+
+
+
+using System;
+namespace erth
+{
+	class beginh
+	{
+		static void Main(string[] args)
+		{
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            //Console.WriteLine(" Welcome to C# This is the first project ");
+            int x,y,z,w;
+            Console.WriteLine("Enter the first value= ");
+            x=int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the second value= ");
+            y=int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the third value= ");
+            z=int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the fourth value= ");
+            w=int.Parse(Console.ReadLine());
+            if(x>=10 && y<=50)
+            {
+            	if(z>100 && w==90)
+            		Console.WriteLine("This code is call combine if Conditions "+  (++w) );
+            	//else
+                    //Console.WriteLine("Exit");
+            }
+            else
+                    Console.WriteLine("Exit");            
+            Console.ReadKey();
+	}
+ }
+}
+
+
+
+using System;
+namespace erth
+{
+	class beginh
+	{
+		static void Main(string[] args)
+		{
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            //Console.WriteLine(" Welcome to C# This is the first project ");
+            int x,y,z,w;
+            Console.WriteLine("Enter the first value= ");
+            x=int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the second value= ");
+            y=int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the third value= ");
+            z=int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the fourth value= ");
+            w=int.Parse(Console.ReadLine());
+            if(x>=10 && y<=50)
+            {
+            	if(z>100 && w==90)
+            		Console.WriteLine("This code is call combine if Conditions "+  (w++) );
+            	//else
+                    //Console.WriteLine("Exit");
+            }
+            else
+                    Console.WriteLine("Exit");            
+            Console.ReadKey();
+	}
+ }
+}
+
+
+
+using System;
+namespace erth
+{
+	class beginh
+	{
+		static void Main(string[] args)
+		{
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int x,y,z,w;
+            Console.WriteLine("Enter the first value= ");
+            x=int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the second value= ");
+            y=int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the third value= ");
+            z=int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the fourth value= ");
+            w=int.Parse(Console.ReadLine());
+            if (x >= 100 && y <=90 )
+                Console.WriteLine("The value of w= " + (++w)); 
+            else
+                Console.WriteLine("The value of z= " + (z++));
+            Console.ReadKey();
+	}
+ }
+}
+
+
+
+using System;
+namespace hommonth
+{
+	class prohm
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor= ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int Month;
+			Console.WriteLine("Enter number of Month= ");
+			Month=int.Parse(Console.ReadLine());
+			switch(Month)
+			{
+					case 1:Console.WriteLine("This month is January NO. of days is = 31 day");
+					break;
+				    case 2:Console.WriteLine("This month is February NO. of days is = 28 day");
+				    break;
+				    case 3:Console.WriteLine("This month is March NO. of days is = 31 day");
+				    break;
+				    case 4:Console.WriteLine("This month is April NO. of days is = 30 day");
+				    break;
+				    case 5:Console.WriteLine("This month is May NO. of days is = 31 day");
+				    break;
+				    case 6:Console.WriteLine("This month is June NO. of days is = 30 day");
+				    break;
+				    case 7:Console.WriteLine("This month is July NO. of days is = 31 day");
+				    break;
+				    case 8:Console.WriteLine("This month is August NO. of days is = 31 day");
+				    break;
+				    case 9:Console.WriteLine("This month is September NO. of days is = 30 day");
+				    break;
+				    case 10:Console.WriteLine("This month is October NO. of days is = 31 day");
+				    break;
+				    case 11:Console.WriteLine("This month is November NO. of days is = 30 day");
+				    break;
+				    case 12:Console.WriteLine("This month is December NO. of days is = 31 day");
+				    break;
+				    default:Console.WriteLine("You are Enter wrong choice");
+				    break;
+			}
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace Payrool
+{
+	class prog
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			string t;
+			Console.WriteLine("Enter your address: ");
+			t=Console.ReadLine();
+			if(t=="Manager")
+				Console.WriteLine("Your salary is= 1000$");
+			   else 
+			if(t=="Assistant")
+				Console.WriteLine("Your salary is= 900$");
+			   else 
+			if(t=="Observer")
+			   	Console.WriteLine("Your salary is= 700$");
+			   else
+			if(t=="Employee")
+			   	Console.WriteLine("Your salary is= 600$");
+                                                             else			   
+			   	Console.WriteLine("You don't have job");
+			   Console.ReadKey();
+			   			
+		}
+	}
+}
+
+
+
+
+
+using System;
+namespace tool
+{
+	class toprog
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,j;
+			for(i=0;i<10;i++)
+			{
+				for(j=0;j<5;j++)
+				{
+					Console.Write("*\t");
+				}
+			}
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+
+namespace start
+{
+    class ewar
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            int x,sum=0;
+            Console.WriteLine("Enter value of x= ");
+            x = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= x; i++)
+            {
+                sum += x;
+                Console.WriteLine("The result is= "+ sum);
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+
+
+using System;
+
+namespace tools
+{
+    class strat
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i;
+            int sum = 0;
+            for (i = 0; i <= 10; i++)
+            {
+                sum+=i;
+                Console.WriteLine("The summation is= "+ sum);
+            }
+             Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+
+namespace tools
+{
+    class strat
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i, x;
+            int sum = 0;
+            for (i = 0; i <= 10; i++)
+            {
+                sum+=i;
+            }
+                  Console.WriteLine("The summation is= "+ sum);
+             Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+
+namespace tools
+{
+    class strat
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i,x;
+            Console.WriteLine("Enter number you need to find multiplication of it= ");
+            x = Convert.ToInt32(Console.ReadLine());
+            for (i = 0; i <= 10; i++)
+            {
+                Console.WriteLine(x +"*"+ i +"=" + (x*i));
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace star
+{
+	class prigg
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,j;
+			for(i=5;i>=0;i--)
+			{
+			for(j=0;j<=i;j++)
+			
+			Console.Write("*");
+			Console.Write("\n");
+			}
+			
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace star
+{
+	class sghw
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,j;
+			for(i=0;i<=10;i++)
+			{
+				for(j=0;j<=10-i;j++)
+					Console.Write(" ");
+				for(j=0;j<=i;j++)
+					Console.Write("*");
+				for(j=i-1;j>=0;j--)
+					Console.Write("*");
+				    Console.Write("\n");
+			}
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+using System;
+namespace star
+{
+    class sghw
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Yellow;
+            int i,j;
+            for(i=0;i<=5;i++)
+            {
+                for(j=0;j<=5-i;j++)
+                    Console.Write(" ");
+                for(j=0;j<=i;j++)
+                    Console.Write("*");
+                for(j=i-1;j>=0;j--)
+                    Console.Write("*");
+                    Console.Write("\n");
+            }
+            for (i = 5; i >= 0; i--)
+            {
+                for(j=0;j<=5-i;j++)
+                    Console.Write(" ");
+                for(j=0;j<=i;j++)
+                    Console.Write("*");
+                for(j=i-1;j>=0;j--)
+                    Console.Write("*");
+                    Console.Write("\n");  
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace star
+{
+    class sghw
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Yellow;
+            int i,j;
+            for (i = 0; i <= 6; i++)
+            {
+                for(j=0;j<=6-i;j++)
+                    Console.Write(" ");
+                for(j=0;j<=i;j++)
+                    Console.Write("*");
+                for(j=i-1;j>=i;j--)
+                    Console.Write("*");
+                    Console.Write("\n");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+
+
+
+
+using System;
+namespace wiu
+{
+    class wese
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i;
+            Console.WriteLine("Enter i= ");
+            i = int.Parse(Console.ReadLine());
+            while (i>0 && i<10)
+            {
+                Console.WriteLine("Hello C# ");
+                i++;
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace wiu
+{
+    class wese
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i;
+            Console.WriteLine("Enter i= ");
+            i = int.Parse(Console.ReadLine());
+            while (i>0 && i<=10)
+            {
+            	i-=1;
+            	Console.Write("\n"+ i);
+            }
+            
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace wiu
+{
+    class wese
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i;
+            Console.WriteLine("Enter i= ");
+            i = int.Parse(Console.ReadLine());
+            while (i>0 && i<=10)
+            {
+                i-=1;
+                Console.Write(" "+ i);
+            }
+            
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace wiu
+{
+    class wese
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i,x;
+            Console.WriteLine("Enter i= ");
+            i=int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter x= ");
+            x=int.Parse(Console.ReadLine());
+            while (i>0 && i<=x)
+            {
+                i-=1;
+                Console.Write(" "+ i);
+            }
+            
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+using System.Reflection.Emit;
+
+namespace toool
+{
+    class hooly
+    {
+        static void Main(String[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i=0 ,sum=0;
+            do
+            {
+                sum += i;
+                ++i;
+            }
+            while (i>0 && i<=10);
+            
+            Console.WriteLine("The summation is= "+ sum);
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+using System.Reflection.Emit;
+
+namespace toool
+{
+    class hooly
+    {
+        static void Main(String[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i=0,j=0;
+            do
+            {
+            	for(;j<=10;j++)
+            	{
+            		Console.WriteLine(i + "*" + j + "=" + (i*j));
+            	}
+            	i++;
+            }
+            while (i>=0 && i<=10);
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+using System.Reflection.Emit;
+
+namespace toool
+{
+    class hooly
+    {
+        static void Main(String[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i=0,j=0;
+            do
+            {
+            	++i;
+            	for(;j<=10;j++)
+            	{
+            		Console.WriteLine(i + "*" + j + "=" + (i*j));
+            	}
+            }
+            while (i>=0 && i<=10);
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+using System.Reflection.Emit;
+
+namespace toool
+{
+    class hooly
+    {
+        static void Main(String[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i=0,j;
+            do
+            {
+            	for(j=0;j<=10;j++)
+            	{
+            		Console.WriteLine("*");
+            	}
+            	i++;
+            }
+            while (i>0 && i<=10);
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+using System.Reflection.Emit;
+
+namespace toool
+{
+    class hooly
+    {
+        static void Main(String[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i=0,sum=0;
+            while(i>=0 && i<=10)
+            {
+            	sum+=i;
+            	i++;
+            }
+            Console.WriteLine("The summation is= "+ sum);
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace toool
+{
+    class hooly
+    {
+        static void Main(String[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i,sum=0;
+            for (i = 0; i <= 10; i++)
+            {
+                if(i==4)
+                    break;
+                sum += i;
+            }
+            Console.WriteLine("The summation with drop numbers after 4 is= "+ sum);
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+using System.Reflection.Emit;
+
+namespace toool
+{
+    class hooly
+    {
+        static void Main(String[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int sum=0,i;
+            Console.Write("Summation of = ");
+            for(i=0;i<=10;i++)
+            {
+            	sum+=i;
+            	Console.Write("("+ i +")");
+            }
+            Console.WriteLine(" is= "+sum);
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+using System.Reflection.Emit;
+
+namespace toool
+{
+    class hooly
+    {
+        static void Main(String[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int x,n,sum=0,i;
+            Console.Write("Enter times of numbers= ");
+            n=int.Parse(Console.ReadLine());
+            Console.WriteLine("\nEnter numbers= ");
+            for(i=1;i<=n;i++)
+            {
+            x=int.Parse(Console.ReadLine());
+            sum+=x;
+            }
+            Console.WriteLine("Summation of "+ n +" numbers enter by user is= "+ sum);
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+using System.Reflection.Emit;
+
+namespace toool
+{
+    class hooly
+    {
+        static void Main(String[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int x,n,sum=0,i;
+            float Avg;
+            Console.Write("Enter times of numbers= ");
+            n=int.Parse(Console.ReadLine());
+            Console.WriteLine("\nEnter numbers= ");
+            for(i=1;i<=n;i++)
+            {
+            x=int.Parse(Console.ReadLine());
+            sum+=x;
+            }
+            Console.Write("\n");
+            Console.WriteLine("Summation of "+ n +" numbers enter by user is= "+ sum + "\n");
+            Avg=sum/n;
+            Console.Write("The Average of "+ n +" Numbers is= "+ Avg);
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+using System.Reflection.Emit;
+
+namespace toool
+{
+    class hooly
+    {
+        static void Main(String[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int x,n,i;
+            float Avg,sum=0;
+            Console.Write("Enter times of numbers= ");
+            n=int.Parse(Console.ReadLine());
+            Console.WriteLine("\nEnter numbers= ");
+            for(i=1;i<=n;i++)
+            {
+            x=int.Parse(Console.ReadLine());
+            sum+=x;
+            }
+            Console.Write("\n");
+            Console.WriteLine("Summation of "+ n +" numbers enter by user is= "+ sum + "\n");
+            Avg=sum/n;
+            Console.Write("The Average of "+ n +" Numbers is= "+ Avg);
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace tooui
+{
+    class hooly
+    {
+        static void Main(String[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int x, s,n, i, j, w;
+            Console.WriteLine("Enter number of rows= ");
+            x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter number of columns= ");
+            n = int.Parse(Console.ReadLine());
+            s = x + n - 1;
+            for (i = 1; i <= x; i++)
+            {
+            	for (w = s; w <= i; w--)
+                {
+                    Console.Write(" ");
+                }
+                for(j=1;j<=i;j++)
+                 Console.Write("* ");
+                Console.Write("\n");
+                s--;
+
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace tooui
+{
+    class hooly
+    {
+        static void Main(String[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int x, s, i, j, w;
+            Console.WriteLine("Enter number of rows= ");
+            x = int.Parse(Console.ReadLine());
+            s = x + 5 - 1;
+            for (i = 1; i <= x; i++)
+            {
+            	for (w = s; w <= i; w--)
+                {
+                    Console.Write(" ");
+                }
+                for(j=1;j<=i;j++)
+                 Console.Write("* ");
+                Console.Write("\n");
+                s--;
+
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace tooui
+{
+    class hooly
+    {
+        static void Main(String[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i,j,x;
+            Console.WriteLine("Enter j col= ");
+            x=int.Parse(Console.ReadLine());
+            for(i=0;i<=10;i++)
+            {
+            	for(j=0;j<=x;j++)
+            	{
+            		if(j<=x-1)
+            			Console.Write("{0}*{1}={2} |",j,i,i*j);
+            		else
+            			Console.Write("{0}*{1}={2} |",j,i,i*j);
+            		
+            	}
+            	Console.Write("\n");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace tooui
+{
+    class hooly
+    {
+        static void Main(String[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i,j,x;
+            Console.WriteLine("Enter j col= ");
+            x=int.Parse(Console.ReadLine());
+            for(i=1;i<=10;i++)
+            {
+                for(j=1;j<=x;j++)
+                {
+                    if(j<=x-1)
+                        Console.Write("{0}*{1}={2} |",j,i,i*j);
+                    else
+                        Console.Write("{0}*{1}={2} |",j,i,i*j);
+            		
+                }
+                Console.Write("\n");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace tooui
+{
+    class hooly
+    {
+        static void Main(String[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i,j,x;
+            Console.WriteLine("Enter j col= ");
+            x=int.Parse(Console.ReadLine());
+            for(i=0;i<=10;i++)
+            {
+            	for(j=0;j<=x-1;j++)
+                {
+                        Console.Write("{0}*{1}={2} |",j,i,i*j);
+            		
+                }
+                Console.Write("\n");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace tooui
+{
+    class hooly
+    {
+        static void Main(String[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i,j,x;
+            Console.WriteLine("Enter j col= ");
+            x=int.Parse(Console.ReadLine());
+            for(i=0;i<=10;i++)
+            {
+            	for(j=0;j<=x;j++)
+                {
+                        Console.Write("{0}*{1}={2} |",j,i,i*j);
+            		
+                }
+                Console.Write("\n");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace star
+{
+    class sghw
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Yellow;
+            int i,j;
+            for (i = 0; i <= 6; i++)
+            {
+                for(j=0;j<=6-i;j++)
+                    Console.Write(" ");
+                for(j=0;j<=i;j++)
+                    Console.Write("*");
+                for(j=i-1;j>=i;j--)
+                    Console.Write("*");
+                Console.Write("\n");
+            }
+            for (i = 10; i >= 0; i--)
+            {
+                for(j=0;j<=6-i;j++)
+                    Console.Write(" ");
+                for(j=0;j<=i;j++)
+                    Console.Write("*");
+                for(j=i-1;j>=i;j--)
+                    Console.Write("*");
+                Console.Write("\n");               
+            }   
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+
+namespace dtool
+{
+    class deelio
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i, j;
+            for(i=0;i<=6;i++)
+            {
+                for (j = 0; j <= i; j++)
+                    Console.Write("*");
+                Console.Write("\n");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace cher
+{
+    class seioll
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int x = 15, y = 6,  a=4,b=6;
+            x %= y;
+            b = a++;
+            Console.WriteLine("The value of X= " + x + "\nThe value of B= " + (++b));
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace arrar
+{
+	class progarray
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			char [] x=new char[5];
+			string[] t=new string[4];
+			t[0]="ali";
+			t[1]="alexander";
+			t[2]="tomy";
+			t[3]="jhon";
+			x[0]='A';
+			x[1]='B';
+			x[2]='C';
+			x[3]='D';
+			x[4]='E';
+			for(int i=0;i<4;i++)
+			{
+				Console.WriteLine("The Name is: " + t[i] + "\nThe Mark is= " + x[i] );
+			}
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace deoolo
+{
+	class deollo
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,j;
+			for(i=9;i>=0;i--)
+			{
+				for(j=0;j<=i;j++)
+
+					Console.Write(" ");
+					Console.WriteLine("*");	
+			}
+			for(i=0;i<=9;i++)
+			{
+				for(j=0;j<=i;j++)
+					Console.Write(" ");
+					Console.WriteLine("*");
+			}
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+
+namespace dtool
+{
+    class deelio
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i, j;
+            for(i=5;i>=0;i--)
+            {
+                for (j = 5; j >=i; j--)
+                Console.Write(" ");
+                Console.Write("*");
+                Console.Write("\n");
+            }
+            for(i=0;i<=5;i++)
+            {
+            	for (j = 5; j >=i; j--)
+            	Console.Write(" ");	
+                Console.Write("*");
+                Console.Write("\n");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+using System;
+namespace CProg
+{
+class ProC
+{
+static void Main(string[] args)
+{
+	Console.Title="C# ";
+	Console.BackgroundColor=ConsoleColor.Black;
+	Console.ForegroundColor=ConsoleColor.Yellow;
+       for (int i = 1; i <= 6; i++)
+        {
+          for (int j = 1; j <= 6-i; j++)
+            Console.Write(" ");
+          for (int j = 1; j <=i; j++)
+            Console.Write("*");
+          for (int j = i-1; j >= 1; j--)
+            Console.Write("*");
+            Console.Write("\n");
+        }
+       for (int i = 6; i >=1; i--)
+       {
+       	  for (int j = 1; j <= 6-i; j++)
+            Console.Write(" ");
+          for (int j = 1; j <=i; j++)
+            Console.Write("*");
+          for (int j = i-1; j >= 1; j--)
+            Console.Write("*");
+            Console.Write("\n");
+       }
+            Console.ReadKey();
+     }
+   }
+}
+
+
+
+
+using System;
+namespace oklk
+{
+	class dolk
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,x,sum=0;
+			Console.WriteLine("Enter the lowest value of x= ");
+			x=int.Parse(Console.ReadLine());
+			for(i=0;i<=x;i+=2)
+			{
+				sum+=i;
+			}
+			Console.WriteLine("The summation values under= "+ x +" is= "+sum);
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace oklk
+{
+	class dolk
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,x,sum=0;
+			Console.WriteLine("Enter the lowest value of x= ");
+			x=int.Parse(Console.ReadLine());
+			for(i=0;i<=x;i+=2)
+			{
+				sum+=i;
+			}
+			Console.Write("The summation values= ");
+			for(i=x;i>=0;i--)
+			{
+				Console.Write("\n" + (i--) );
+			}
+			Console.WriteLine("\nThe summation values under= "+ x +" is= "+sum);
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace PrimeNumber
+{
+    class ProgrSharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+        	int n, i, res;
+            bool flag = true;
+
+            Console.WriteLine("Please Enter any Number= ");
+            n = int.Parse(Console.ReadLine());
+            for (i = 2; i <= n / 2; i++)
+            {
+                res = n % i;
+                if (res == 0)
+                {
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag)
+                Console.WriteLine(n + " is Prime Number");
+		    else
+                Console.WriteLine(n + " is not Prime Number");
+
+            Console.ReadLine();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace csharp
+{
+	class sharp
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,j;
+			for(i=6;i>=0;i--)
+			{
+				for(j=6;j>=i;j--)
+					Console.Write(" ");
+				    Console.Write("*");
+				    Console.Write("\n");
+			}
+			for(i=0;i<=6;i++)
+			{
+			    for(j=6;j>=i;j--)
+					Console.Write(" ");
+				    Console.Write("*");
+				    Console.Write("\n");	
+			}
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace CProg
+{
+class ProC
+{
+static void Main(string[] args)
+{
+	Console.Title="C# ";
+	Console.BackgroundColor=ConsoleColor.Black;
+	Console.ForegroundColor=ConsoleColor.Yellow;
+	int i,sum=0,x,l;
+	float avg;
+	Console.Write("Enter NO. of objects= ");
+	x=int.Parse(Console.ReadLine());
+       for (i = 1; i <= x; i++)
+        {
+       	
+       	l=int.Parse(Console.ReadLine());
+       	sum+=l;
+       }
+       Console.WriteLine("The summation is= " + sum);
+       avg=sum/7;
+       Console.WriteLine("The average is= "+ avg);
+            Console.ReadKey();
+     }
+   }
+}
+
+
+
+
+using System;
+namespace CProg
+{
+class ProC
+{
+static void Main(string[] args)
+{
+	Console.Title="C# ";
+	Console.BackgroundColor=ConsoleColor.Black;
+	Console.ForegroundColor=ConsoleColor.Yellow;
+	int i,f=1,n;
+	Console.WriteLine("Enter the number to find factorial= ");
+	n=int.Parse(Console.ReadLine());
+	for(i=1;i<=n;i++)
+	{
+		f=f*i;
+	}
+	Console.WriteLine("The factorial of "+ n + " is= " + f );
+            Console.ReadKey();
+     }
+   }
+}
+
+
+
+
+using System;
+namespace CProg
+{
+    class ProC
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Yellow;
+            int value;
+            Console.WriteLine("Enter an integer value= ");
+            value = Convert.ToInt32(Console.ReadLine());
+            switch (value % 2)
+            {
+                    case 0:
+                        Console.WriteLine("Even integer");
+                        break;
+                    case 1:
+                        Console.WriteLine("Odd integer");
+                        break;
+                        default: 
+                            Console.WriteLine("You are Enter wrong value");
+                            break;
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+
+
+using System;
+namespace CProg
+{
+    class ProC
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Yellow;
+            int i;
+            for (i = 19; i >= 1; i -= 2)
+            {
+                Console.WriteLine(i);                
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace CProg
+{
+    class ProC
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Yellow;
+            int counter = 2;
+            do
+            {
+                Console.WriteLine(counter);
+                counter += 2;
+            } while (counter <= 100);
+            Console.ReadKey();
+        }
+    }
+}
+ 
+
+
+
+using System;
+
+namespace dtool
+{
+    class deelio
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i, j;
+            for(i=10;i>=1;i--)
+            {
+                for (j = 10; j >=i; j--)
+                    Console.Write('*');
+                Console.Write('\n');
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace haprog
+{
+    class alipro
+    {
+        static void Main(string[] args)
+        {
+        	Console.Title="C# ";
+        	int i=1,j=2,k=3,m=2;
+        	Console.WriteLine(i==1);
+        	Console.WriteLine(j==3);
+        	Console.WriteLine((i>=1)&&(j<4));
+        	Console.WriteLine((m<=99)&(k<m));
+                Console.WriteLine((j>=i)||(k==m));
+        	Console.WriteLine((k+m<j)|(3-j>=k));
+        	Console.WriteLine(!(k>m));
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace cshap
+{
+    class Prgsharp
+    {
+        static void Main(string[] args)
+        {
+        	Console.Title="C# ";
+        	Console.BackgroundColor=ConsoleColor.Black;
+        	Console.ForegroundColor=ConsoleColor.Yellow;
+        	int i, j,rows, count = 0;
+        	Console.WriteLine("Enter number of rows= ");
+        	rows = int.Parse(Console.ReadLine());
+            for (i = 0; i < rows; i++)
+         
+            {
+                for (j = 0; j <= i; j++)
+                {
+                    count++;
+                    Console.Write(""+count);
+                }
+                Console.WriteLine("");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace sharp
+{
+    class ProCsharp
+    {
+        static void Main(string[] args)
+        {
+        	Console.Title="C# ";
+        	Console.BackgroundColor=ConsoleColor.Black;
+        	Console.ForegroundColor=ConsoleColor.Yellow;
+        	for(int i=1;i<=5;++i)
+        	{
+        		for(int j=1;j<=3;++j)
+        		{
+        			for(int k=1;k<=4;++k)
+        				Console.Write('*');
+        			    Console.WriteLine();
+        		}
+        		Console.WriteLine();
+        	}
+        	Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace Csharp
+{
+    class sharp
+    {
+        static void Main(string[] args)
+        {
+        	Console.Title="C# ";
+        	Console.BackgroundColor=ConsoleColor.Black;
+        	Console.ForegroundColor=ConsoleColor.Yellow;
+        	int i, j,rows, count = 0;
+        	Console.WriteLine("Enter number of rows= ");
+        	rows = int.Parse(Console.ReadLine());
+            for (i = 0; i < rows; i++)
+         
+            {
+            	for(j=1;j<=rows-i;j++)
+            		Console.Write(" ");
+                for (j = 0; j <= i; j++)
+                {
+                    count++;
+                    Console.Write(""+count);
+                }
+                Console.WriteLine(" ");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace starthome
+{
+	class progbegin
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,x;
+			Console.Write("Enter the number you want to print numbers less than or equal to it in reverse order : ");
+			x=int.Parse(Console.ReadLine());
+			Console.Write("Input a number: ");
+			for(i=1;i<=x;i++)
+			{
+				Console.Write(i);
+			}
+			Console.Write("\nThe number in reverse order is : ");
+			for(i=x;i>=1;i--)
+			{
+				Console.Write(i);
+			}
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace sharp
+{
+	class cshrp
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,j,s,r;
+			Console.Write("Enter number of rows= ");
+			r=int.Parse(Console.ReadLine());
+			s=r+4-1;
+			for(i=1;i<=r;i++)
+			{
+				for(j=s;j>=1;j--)
+				Console.Write(" ");
+				for(j=1;j<=i;j++)
+				Console.Write("*");
+				Console.Write("\n");
+				s--;
+			}
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace sharp
+{
+	class cshrp
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,n,ctr=0;
+			Console.WriteLine("Enter any number= ");
+			n=int.Parse(Console.ReadLine());
+			for(i=2;i<=n/2;i++)
+			{
+				if(n%i==0)
+				{
+					ctr++;
+					break;
+				}
+			}
+			if(ctr==0 && ctr!=1)
+			Console.WriteLine(n + " is a Prime number ");
+			else
+			Console.WriteLine(n + " is not a Prime number ");
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace sharp
+{
+	class cshrp
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,j,bin=0,dc,n;
+			Console.WriteLine("Enter number= ");
+			n=int.Parse(Console.ReadLine());
+			dc=n;
+			i=1;
+			for(j=n;j>0;j=j/2)
+			{
+				bin=bin+(n%2)*i;
+				i=i*10;
+				n=n/2;
+			}
+			Console.Write("The decimal number is= " + dc + "\nThe binary number is= " + bin);
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace sharp
+{
+	class cshrp
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,sum=0,n;
+			Console.WriteLine("Enter students number= ");
+			n=int.Parse(Console.ReadLine());
+			Console.Write("numbers are=");
+			for(i=1;i<=n;i++)
+			{
+				Console.Write(" " +i);
+			}
+			for(i=1;i<=n;i++)
+			{
+				sum+=i;
+			}
+			Console.Write("\nThe sumation is= " + sum);
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace sharp
+{
+	class cshrp
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,sum=0,n;
+			Console.WriteLine("Enter students number= ");
+			n=int.Parse(Console.ReadLine());
+			Console.Write("numbers are=");
+			for(i=1;i<=n;i++)
+			{
+				Console.Write(" " +i);
+			}
+			for(i=1;i<=n;i++)
+			{
+				if(i==5)
+					continue;
+				sum+=i;
+			}
+			Console.Write("\nThe sumation is= " + sum);
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+using System;
+namespace goolsharp
+{
+	class csharp
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# ";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,x;
+			Console.WriteLine("Enter the value= ");
+			x=int.Parse(Console.ReadLine());
+			Console.Write("x= ");
+			for(i=1;i<=x;i++)
+			{
+				Console.Write(i + " ");
+			}
+			Console.Write("\n");
+			Console.Write("x= ");
+			for(i=x;i>=1;i--)
+			{
+				Console.Write(i + " ");
+			}
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace CProg
+{
+class ProC
+{
+static void Main(string[] args)
+{
+	Console.Title="C# ";
+	Console.BackgroundColor=ConsoleColor.Black;
+	Console.ForegroundColor=ConsoleColor.Yellow;
+	int a,b,c,d;
+	float s;
+	Console.Write("Enter a= ");
+	a=int.Parse(Console.ReadLine());
+	Console.Write("Enter b= ");
+	b=int.Parse(Console.ReadLine());
+	Console.Write("Enter c= ");
+	c=int.Parse(Console.ReadLine());
+	Console.Write("Enter d= ");
+	d=int.Parse(Console.ReadLine());
+	s=a*b+c/d;
+	Console.Write("The result is= " + s);
+	s=(a*c)/(b*d);
+	Console.Write("\nThe result is= " + s);
+	s=a-d/b+c;
+	Console.Write("\nThe result is= " + s);
+    Console.ReadKey();
+     }
+   }
+}
+
+
+
+using System;
+namespace sharp
+{
+    class cshrp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("The numbers under 10 are= ");
+            int i = 1;
+            while (i <= 10)
+            {
+                Console.Write(" "+ i);
+                i++;
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+using System;
+namespace sharp
+{
+    class cshrp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i,f=1,x;
+            Console.Write("Enter x= ");
+            x=int.Parse(Console.ReadLine());
+            for(i=1;i<=x;i++)
+            {
+            	f=f*i;
+            }
+            Console.WriteLine("The factorial= " + f);
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+
+namespace sharp
+{
+    class csharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i, j;
+            for (i=10;i>=0;i--)
+            {
+                for(j=0;j<=10-i;j++)
+                    Console.Write(" ");
+                for(j=0;j<=i;j++)
+                    Console.Write("*");
+                for(j=i-0;j>=1;j--)
+                    Console.Write("*");
+                Console.Write("\n");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+using System;
+namespace sharp
+{
+    class cshrp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i,j,r,s,count=1,l;
+            Console.Write("Enter number of rows= ");
+            r=int.Parse(Console.ReadLine());
+            s=r+4-1;
+            for(i=0;i<=r;i++)
+            {
+            for(l=s;l>=1;l--)
+            {
+            Console.Write(" ");
+            }
+            	for(j=1;j<=i;j++)
+            		Console.Write(count++ + " ");
+            	    Console.Write("\n");
+            	    s--;
+            }
+            Console.ReadKey();
+        }
+      }
+    }
+
+
+
+
+*******************************************          Array            ***********************************************
+
+
+
+using System;
+namespace array
+{
+	class csharry
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# Array";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i;
+			int [] x=new int[5];
+			x[0]=55;
+			x[1]=8;
+			x[2]=99;
+			x[3]=12;
+			x[4]=50;
+			for(i=0;i<5;i++)
+			{
+				Console.WriteLine(x[i]);
+			}
+			Console.WriteLine(x[6]);   //Error
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace array
+{
+	class csharry
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# Array";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,n;
+			Console.WriteLine("Enter value of n= ");
+			n=int.Parse(Console.ReadLine());
+			int []x=new int[n];
+			for(i=0;i<n;i++)
+			{
+				x[i]=int.Parse(Console.ReadLine());
+			}
+			Console.Write("\n");
+			for(i=0;i<n;i++)
+			{
+				Console.Write(x[i] + " ");
+			}
+			//Console.WriteLine(x[6]);   //Error
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace array
+{
+	class csharry
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# Array";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,n;
+			Console.WriteLine("Enter value of n= ");
+			n=int.Parse(Console.ReadLine());
+			int []x=new int[n];
+			for(i=0;i<x.Length;i++)
+			{
+				x[i]=int.Parse(Console.ReadLine());
+			}
+			Console.Write("\n");
+			for(i=0;i<x.Length;i++)
+			{
+				Console.Write(x[i] + " ");
+			}
+			//Console.WriteLine(x[6]);   //Error
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace array
+{
+	class csharry
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# Array";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,j,t;
+			int [] x=new int[5];
+			Console.WriteLine("Enter 5 values for array= ");
+			for(i=0;i<x.Length;i++)
+			{
+				x[i]=int.Parse(Console.ReadLine());
+			}
+			for(i=0;i<x.Length;i++)
+			for(j=i+1;j<x.Length;j++)
+			{
+				if(x[i]>x[j])
+				{
+					t=x[i];
+					x[i]=x[j];
+					x[j]=t;
+				}
+			}
+			Console.Write("The array is= ");
+			for(i=0;i<x.Length;i++)
+			{
+				Console.Write(x[i] + " , ");
+			}
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+namespace csharp
+{
+    class sharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Yellow;
+            int i, j, n,l=1,c=0;
+            int[] x = new int[100];
+            int[] y = new int[100];
+            int[] w = new int[100];
+            Console.Write("Input the number of elements to be stored in the array :");
+            n = int.Parse(Console.ReadLine());
+            Console.WriteLine("Input {0} elements in the array :\n" ,n);
+            for (i = 0; i < n; i++)
+            {
+                Console.Write("element - {0} : " , i);
+                x[i] = int.Parse(Console.ReadLine());
+            }
+            for (i = 0; i < n; i++)
+            {
+                y[i] = x[i];
+                w[i] = 0;
+            }
+            for (i = 0; i < n; i++)
+            {
+                for (j = 0; j < n; j++)
+                {
+                    if (x[i] == x[j])
+                    {
+                        w[j] = l;
+                        l++;
+                    }
+                }
+                l = 1;
+            }
+            for (i = 0; i < n; i++)
+            {
+                if (w[i] == 1)
+                {
+                    c++;
+                }   
+            }
+            Console.Write("Total number of duplicate elements found in the array is : " + c);
+            Console.Write("\nIndex of array elements are:");
+            for (i = 0; i < n; i++)
+            {
+            	if (w[i] == 2)
+                {
+            	Console.Write(x[i] + " ");
+            	}
+            }
+            Console.ReadKey();
+        }
+    } 	
+}
+
+
+
+
+using System;
+namespace csharp
+{
+    class sharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Yellow;
+            int i, j,n;
+            int[] x = new int[100];
+            int[] y = new int[100];
+            int[] w = new int[100];
+            Console.Write("Input the number of elements to be stored in the array :");
+            n = int.Parse(Console.ReadLine());
+            Console.WriteLine("Input {0} elements in the array :\n" ,n);
+            for (i = 0; i < n; i++)
+            {
+                Console.Write("element - {0} : " , i);
+                x[i] = int.Parse(Console.ReadLine());
+            }
+            Console.Write("The Even elements are : \n");
+            for (i = 0; i < n; i++)
+            {
+                if (x[i] % 2 == 0)
+                {
+                    y[i] = x[i];
+                    Console.Write(y[i] + " ");
+                }
+            }
+            Console.Write("\nThe Odd elements are : \n");
+            for (i = 0; i < n; i++)
+            {
+                if (x[i] % 2 != 0)
+                {
+                    w[i] = x[i];
+                    Console.Write(w[i]+ " ");
+                }
+            }
+            Console.ReadKey();
+        }
+    } 	
+}
+
+
+
+
+using System;
+namespace ssharp
+{
+class csharp
+{
+static void Main(string[] args)
+{
+Console.Title="C# ";
+Console.BackgroundColor=ConsoleColor.Black;
+Console.ForegroundColor=ConsoleColor.Yellow;
+int i;
+char [] t=new char[4];
+Console.Write("Enter any name= \n");
+for(i=0;i<t.Length;i++)
+{
+	t[i]=char.Parse(Console.ReadLine());
+}
+Console.Write("\nThe name in reverse order is= \n");
+for(i=t.Length-1;i>=0;i--)
+{
+Console.Write(t[i]);
+}
+Console.ReadKey();
+}
+}
+}
+
+
+
+___________________________________________
+
+
+
+using System;
+namespace csharp
+{
+    class sharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Yellow;
+            int i, j, n,l=1,c=0;
+            int[] x = new int[100];
+            int[] y = new int[100];
+            int[] w = new int[100];
+            Console.Write("Input the number of elements to be stored in the array :");
+            n = int.Parse(Console.ReadLine());
+            Console.WriteLine("Input {0} elements in the array :\n" ,n);
+            for (i = 0; i < n; i++)
+            {
+                Console.Write("element - {0} : " , i);
+                x[i] = int.Parse(Console.ReadLine());
+            }
+            for (i = 0; i < n; i++)
+            {
+                y[i] = x[i];
+                w[i] = 0;
+            }
+            for (i = 0; i < n; i++)
+            {
+                for (j = 0; j < n; j++)
+                {
+                    if (x[i] == x[j])
+                    {
+                        w[j] = l;
+                        l++;
+                    }
+                }
+                l = 1;
+            }
+            for (i = 0; i < n; i++)
+            {
+                if (w[i] == 1)
+                {
+                    c++;
+                }   
+            }
+            Console.Write("Total number of duplicate elements found in the array is : " + c);
+            Console.Write("\nIndex of array elements are:");
+            for (i = 0; i < n; i++)
+            {
+            	if (w[i] == 2)
+                {
+            	Console.Write(x[i] + " ");
+            	}
+            }
+            Console.ReadKey();
+        }
+    } 	
+}
+
+
+
+
+______________________________
+
+
+
+using System;
+namespace csharp
+{
+    class sharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Yellow;
+            int i, j,n;
+            int[] x = new int[100];
+            int[] y = new int[100];
+            int[] w = new int[100];
+            Console.Write("Input the number of elements to be stored in the array :");
+            n = int.Parse(Console.ReadLine());
+            Console.WriteLine("Input {0} elements in the array :\n" ,n);
+            for (i = 0; i < n; i++)
+            {
+                Console.Write("element - {0} : " , i);
+                x[i] = int.Parse(Console.ReadLine());
+            }
+            Console.Write("The Even elements are : \n");
+            for (i = 0; i < n; i++)
+            {
+                if (x[i] % 2 == 0)
+                {
+                    y[i] = x[i];
+                    Console.Write(y[i] + " ");
+                }
+            }
+            Console.Write("\nThe Odd elements are : \n");
+            for (i = 0; i < n; i++)
+            {
+                if (x[i] % 2 != 0)
+                {
+                    w[i] = x[i];
+                    Console.Write(w[i]+ " ");
+                }
+            }
+            Console.ReadKey();
+        }
+    } 	
+}
+
+__________________________________________
+
+
+
+using System;
+namespace array
+{
+	class csharry
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# Array";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,j,t;
+			int [] x=new int[5];
+			Console.WriteLine("Enter 5 values for array= ");
+			for(i=0;i<x.Length;i++)
+			{
+				x[i]=int.Parse(Console.ReadLine());
+			}
+			for(i=0;i<x.Length;i++)
+			for(j=i+1;j<x.Length;j++)
+			{
+				if(x[i]>x[j])
+				{
+					t=x[i];
+					x[i]=x[j];
+					x[j]=t;
+				}
+			}
+			Console.Write("The array in Ascending order is= ");
+			for(i=0;i<x.Length;i++)
+			{
+				Console.Write(x[i] + " ");
+			}
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+____________________________________________________________
+
+
+
+
+using System;
+namespace array
+{
+	class csharry
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# Array";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			int i,j,t;
+			int [] x=new int[5];
+			Console.WriteLine("Enter 5 values for array= ");
+			for(i=0;i<x.Length;i++)
+			{
+				x[i]=int.Parse(Console.ReadLine());
+			}
+			for(i=0;i<x.Length;i++)
+			for(j=i+1;j<x.Length;j++)
+			{
+				if(x[i]<x[j])
+				{
+					t=x[i];
+					x[i]=x[j];
+					x[j]=t;
+				}
+			}
+			Console.Write("The array in Descending order is= ");
+			for(i=0;i<x.Length;i++)
+			{
+				Console.Write(x[i] + " ");
+			}
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+_______________________________________________________
+
+
+
+using System;
+namespace array
+{
+	class csharry
+	{
+		static void Main(string[] args)
+		{
+			Console.Title="C# Array";
+			Console.BackgroundColor=ConsoleColor.Black;
+			Console.ForegroundColor=ConsoleColor.Yellow;
+			char []x=new char[4];
+			char []y=new char[4];
+			int i;
+			Console.WriteLine("Enter 4 characters: ");
+			for(i=0;i<4;i++)
+			{
+				x[i]=char.Parse(Console.ReadLine());
+			}
+			for(i=0;i<4;i++)
+			{
+				y[i]=char.ToUpper(x[i]);
+			}
+			Console.Write("\n");
+			Console.WriteLine("The array in upper order is: ");
+			for(i=0;i<4;i++)
+			{
+			Console.Write(y[i] + " ");
+			}
+			Console.ReadKey();
+		}
+	}
+}
+
+
+
+
+using System;
+
+namespace chsrp
+{
+    class csharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i, j;
+            for (i = 0; i < 7; i++)
+            {
+                for (j = 0; j < 7; j++)
+                    if (i + j == 3 || j - i == 3 || i - j == 3 || i + j == 9)
+                        Console.Write("*");
+                    else
+                        Console.Write(" ");
+                Console.Write("\n");
+            }
+            Console.ReadKey();
+        }
+        }
+    }
+
+
+
+
+using System;
+
+namespace csharp
+{
+    class sharpdi
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int [,] x=new int[3,3];
+            int i,j;
+            Console.WriteLine("Enter elements of This array= ");
+            for(i=0;i<x.GetLength(0);i++)
+            {
+            for(j=0;j<x.GetLength(1);j++)
+            {
+            x[i,j]=int.Parse(Console.ReadLine());
+            }
+            }
+            Console.WriteLine("This array is= ");
+            for(i=0;i<x.GetLength(0);i++)
+            {
+            for(j=0;j<x.GetLength(1);j++)
+            {
+            Console.Write(x[i,j] + " " );
+            }
+            Console.Write("\n");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+using System;
+
+namespace csharp
+{
+    class sharpdi
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int [,] x=new int[3,3];
+            int i,j;
+            Console.WriteLine("Enter elements of This array= ");
+            for(i=0;i<x.GetLength(0);i++)
+            {
+            for(j=0;j<x.GetLength(1);j++)
+            {
+            x[i,j]=int.Parse(Console.ReadLine());
+            }
+            }
+            Console.WriteLine("This array is= ");
+            for(i=0;i<x.GetLength(0);i++)
+            {
+            for(j=0;j<x.GetLength(1);j++)
+            {
+            if(i==j)
+            {
+             x[i,j]=0;
+            }
+            }
+            }
+            for(i=0;i<x.GetLength(0);i++)
+            {
+            for(j=0;j<x.GetLength(1);j++)
+            {
+            Console.Write(x[i,j] + " ");
+            }
+            Console.Write("\n");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+using System;
+namespace jagged_array
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        	Console.Title="C# ";
+        	Console.BackgroundColor=ConsoleColor.Black;
+        	Console.ForegroundColor=ConsoleColor.Yellow;
+            int[][] x = new int[4][];
+
+            x[0] = new int[2] { 7, 9 };
+            x[1] = new int[4] { 12, 42, 26, 38 };
+            x[2] = new int[6] { 3, 5, 7, 9, 11, 13 };
+            x[3] = new int[3] { 4, 6, 8 };
+
+            for (int i = 0; i < x[i].Length; i++)
+
+            {
+                Console.Write("Element({0}): ", i);
+
+                for (int j = 0; j < x[i].Length; j++)
+                {
+                    Console.Write(x[i][j]+ "\t");
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+using System;
+namespace csharp
+{
+    class sharp
+    {
+        static void Main(string[] args)
+        {
+    Console.Title="C#";
+    Console.BackgroundColor=ConsoleColor.Black;
+    Console.ForegroundColor=ConsoleColor.Yellow;
+    int [][] x=new int[2][];
+        int i, j;
+    x[0]=new int[3]{1,2,7};
+    x[1]=new int[8]{3,4,5,6,7,8,9,10};
+for(i=0;i<x.Length;i++)
+{
+Console.Write("Element {0}: ",i);
+for(j=0;j<x[i].Length;j++)
+{
+    Console.Write(x[i][j] + "\t");
+}
+    Console.Write("\n");
+}
+Console.ReadKey();
+}
+}
+}
+
+
+
+using System;
+namespace jagged_array
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Yellow;
+            string[][] t = new string[4][];
+
+            t[0] = new string[3] {"tom" , "jhon" , "lono" };
+            t[1] = new string[4] {"lian" , "cogo" , "mono" , "ziano" };
+            t[2] = new string[5] {"tom" , "jhon" , "lono" , "henry" , "macmahoon" };
+            t[3] = new string[2] {"socky" , "senow" };
+            int i, j;
+            for (i = 0; i < t.Length; i++)
+            {
+                Console.Write("Element {0} " , i);
+                for (j = 0; j < t[i].Length; j++)
+                {
+                    Console.Write(t[i][j] + "\t");
+                }
+                Console.Write("\n");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace jagged_array
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Yellow;
+            char[,] x = new char[3,3];
+            int i, j;
+            Console.Write("Enter array elements: \n");
+            for (i = 0; i < x.GetLength(0); i++)
+            {
+                for (j = 0; j < x.GetLength(1); j++)
+                {
+                    x[i, j] = char.Parse(Console.ReadLine());
+                }
+            }
+            for (i = 0; i < x.GetLength(0); i++)
+            {
+                for (j = 0; j < x.GetLength(1); j++)
+                {
+                    if (i-j <= j)
+                    {
+                     x[i, j] = '*';
+                    }
+                }
+            }
+            Console.Write("The array is: \n");
+            for (i = 0; i < x.GetLength(0); i++)
+            {
+                for (j = 0; j < x.GetLength(1); j++)
+                {
+                  Console.Write(x[i,j] + " ");  
+                }
+                Console.Write("\n");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace sharp
+{
+    class PCsharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Yellow;
+            int[,] x = new int[3,3];
+            int i, j;
+            int Max = x[0,0];
+            Console.Write("Enter array elements: \n");
+            for (i = 0; i < x.GetLength(0); i++)
+            {
+                for (j = 0; j < x.GetLength(1); j++)
+                {
+                    x[i, j] = int.Parse(Console.ReadLine());
+                }
+            }
+            for (i = 0; i < x.GetLength(0); i++)
+            {
+                for (j = 0; j < x.GetLength(1); j++)
+                {
+                    if (Max < x[i, j])
+                    {
+                        Max = x[i, j];
+                    }
+                }
+            }
+            Console.Write("\nThe array is: \n");
+            for (i = 0; i < x.GetLength(0); i++)
+            {
+                for (j = 0; j < x.GetLength(1); j++)
+                {
+                    Console.Write(x[i,j] + " ");  
+                }
+                Console.Write("\n");
+            }
+            Console.Write("\nThe Maximum value is= \n" + Max);
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+namespace exam
+{
+class exam
+{
+static void Main(string[] args)
+{
+Console.Title="C#";
+Console.BackgroundColor=ConsoleColor.Black;
+Console.ForegroundColor=ConsoleColor.Yellow;
+int [] x=new int[100];
+int i,j,w,n,counter=0;
+Console.Write("Enter n= ");
+n=int.Parse(Console.ReadLine());
+Console.Write("Enter elements of array: \n");
+for(i=0;i<n;i++)
+{
+Console.Write("Elements {0} : ",i);
+x[i]=int.Parse(Console.ReadLine());
+}
+Console.Write("\nThe array = \n");
+for(i=0;i<n;i++)
+{
+counter=0;
+for(j=0;j<i-1;j++)
+{
+if(x[i]==x[j])
+{
+counter++;
+}
+}
+for(w=i+1;w<n;w++)
+{
+if(x[i]==x[w])
+{
+counter++;
+}
+}
+if(counter==0)
+{
+Console.Write(x[i] + " ");
+}
+}
+Console.ReadKey();
+}
+}
+}
+
+
+
+
+using System;
+namespace csharp
+{
+    class sharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Yellow;
+            int[,] x = new int[3,3];
+            int i, j,sum=0;
+            Console.Write("Enter array elements= \n");
+            for(i=0;i<x.GetLength(0);i++)
+            {
+                for (j = 0; j < x.GetLength(1); j++)
+                {
+                    x[i, j] = int.Parse(Console.ReadLine());
+                }
+            }
+            for (i = 0; i < x.GetLength(0); i++)
+            {
+                for (j = 0; j < x.GetLength(1); j++)
+                {
+                    if (x[i, j] % 3 == 0)
+                    {
+                        sum += x[i, j];
+                    }
+                }
+            }
+            Console.Write("The sum elements can divided by 3 without remainder is= " + sum);
+            
+        }  
+    } 	
+}
+
+
+
+
+
+using System;
+namespace csharp
+{
+    class sharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Yellow;
+            int[,] x = new int[3,3];
+            int i, j,sum=0;
+            Console.Write("Enter array elements= \n");
+            for(i=0;i<x.GetLength(0);i++)
+            {
+                for (j = 0; j < x.GetLength(1); j++)
+                {
+                    x[i, j] = int.Parse(Console.ReadLine());
+                }
+            }
+            for (i = 0; i < x.GetLength(0); i++)
+            {
+                for (j = 0; j < x.GetLength(1); j++)
+                {
+                        if (i==j || i+j==3-1)
+                        {
+                            sum+=x[i,j];
+                        }
+                    }
+                }
+                Console.Write("The sum of main and second diameter= " + sum);
+            Console.ReadKey();
+            }
+        }  
+    } 	
+
+
+
+
+using System;
+
+namespace sharpc
+{
+    class csahrp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int[] x = new int[100];
+            int[] y = new int[100];
+            int[] z = new int[100];
+            int i, j,w,n1,n2,n3;
+            Console.Write("Enter n= ");
+            n1 = int.Parse(Console.ReadLine());
+            for(i=0;i<n1;i++)
+            {
+                Console.Write("Element[{0}] : ",i);
+                x[i] = int.Parse(Console.ReadLine());
+            }
+            Console.Write("Enter n2= ");
+            n2 = int.Parse(Console.ReadLine());
+            for (i = 0; i < n2; i++)
+            {
+                Console.Write("Element[{0}] : ",i);
+                y[i] = int.Parse(Console.ReadLine());   
+            }
+            n3 = n1 + n2;
+            for (i = 0; i < n1; i++)
+            {
+                z[i] = x[i];
+            }
+            for (j = 0; j < n2; j++)
+            {
+                z[i] = y[j];
+                i++;
+            }
+            for (i = 0; i < n3; i++)
+            {
+                for (w = 0; w < n3 - 1; w++)
+                {
+                    if (z[w] >= z[w + 1])
+                    {
+                        j = z[w + 1];
+                        z[w + 1] = z[w];
+                        z[w] = j;
+                    }
+                }
+            }
+            Console.Write("The merged array: \n");
+            for (i = 0; i < n3; i++)
+            {
+                Console.Write(z[i] + " ");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+
+
+using System;
+using System.Runtime.CompilerServices;
+
+namespace Csharp
+{
+    class Csharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i;
+            char x,y,z;
+            Console.Write("Enter first letters: ");
+            x = char.Parse(Console.ReadLine());
+            Console.Write("Enter second letters: ");
+            y = char.Parse(Console.ReadLine());
+            Console.Write("Enter third letters: ");
+            z = char.Parse(Console.ReadLine());
+            Console.Write("The letter is {2}{1}{0}",x,y,z);
+            Console.ReadKey();
+        }
+    }
+}
+
+
+_________________________________________________________________________________
+
+
+using System;
+using System.Runtime.CompilerServices;
+
+namespace Csharp
+{
+    class Csharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            char op;
+            int x, y;
+            Console.Write("Enter x= ");
+            x = int.Parse(Console.ReadLine());
+            Console.Write("Enter y= ");
+            y = int.Parse(Console.ReadLine());
+            Console.Write("Enter operation you need: \n");
+            op = char.Parse(Console.ReadLine());
+            if(op=='+')
+                Console.Write("{0} + {1} is {2}",x,y,(x+y));
+            else
+            if(op=='-')
+                Console.Write("x-y= " + (x-y));
+            else
+            if(op=='*')
+                Console.Write("x*y= " + (x*y));
+            else
+            if(op=='/')
+                Console.Write("x/y= " + (x/y)); 
+            else
+                Console.Write(op +" is wrong operation" );
+            Console.ReadKey();
+        }
+    }
+}
+
+_________________________________________________________________________________________
+
+
+using System;
+using System.Runtime.CompilerServices;
+
+namespace Csharp
+{
+    class Csharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            char op;
+            int x, y;
+            Console.Write("Enter x= ");
+            x = int.Parse(Console.ReadLine());
+            Console.Write("Enter y= ");
+            y = int.Parse(Console.ReadLine());
+            Console.Write("Enter operation you need: \n");
+            op = char.Parse(Console.ReadLine());
+            switch (op)
+            {
+                case '+': Console.Write("x+y = " + (x + y));
+                        break;
+                case '-': Console.Write("x-y = " + (x - y));
+                        break;
+                case '*': Console.Write("x*y = " + (x * y));
+                    break;
+                case '/': Console.Write("x/y = " + (x / y));
+                    break;
+                default:Console.Write(op + " is wrong operation");
+                    break;
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+_______________________________________________________________________________________________________________
+
+using System;
+using System.Runtime.CompilerServices;
+
+namespace Csharp
+{
+    class Csharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int x, y, z;
+            Console.Write("Enter x= ");
+            x = int.Parse(Console.ReadLine());
+            Console.Write("Enter y= ");
+            y = int.Parse(Console.ReadLine());
+            Console.Write("Enter z= ");
+            z = int.Parse(Console.ReadLine());
+            if (x > y)
+            {
+                if (x > z)
+                {
+                    Console.Write(x + " is the biggest one");
+                }
+                else
+                {
+                    Console.Write(z + " is the biggest one");
+                }
+            }
+            if (y > x)
+                {
+                    if (y > z)
+                    {
+                        Console.Write(y + " is the biggest one");
+                    }
+                    else
+                    {
+                        Console.Write(z + " is the biggest one");
+                    }
+                }
+                Console.ReadKey();
+        }
+    }
+}
+________________________________________________________________________________________________________
+
+using System;
+using System.Runtime.CompilerServices;
+
+namespace Csharp
+{
+    class Csharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int x = 5;
+            Console.WriteLine(x++);
+            Console.WriteLine(++x);
+            Console.ReadKey();
+        }
+    }
+}
+________________________________________________________________________________________________________________
+using System;
+namespace Csharp
+{
+    class Csharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i,n,f = 1;
+            Console.Write("Enter n= ");
+            n = int.Parse(Console.ReadLine());
+            for (i = n; i >=1; i--)
+            {
+                f = f * i;
+            }
+            Console.Write("The factorial is= " + f);
+            Console.ReadKey();
+        }
+    }
+}
+_______________________________________________________________________________________________________________________________________
+
+using System;
+using System.Runtime.CompilerServices;
+
+namespace Csharp
+{
+    class Csharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i, j;
+            for (i = 10; i > 0; i--)
+            {
+                for (j = 0; j < 10-i; j++)
+                    Console.Write(" ");
+                for(j=0;j<i;j++)
+                    Console.Write("*");
+                    Console.Write("\n");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+_______________________________________________________________________________________________________________________________
+
+
+using System;
+namespace Csharp
+{
+    class Csharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i,n,m,sum = 0;
+            Console.Write("Enter n= ");
+            n = int.Parse(Console.ReadLine());
+            for (i = 1; i <= n; i++)
+            {
+                Console.Write("Number_{0}= ",i);
+                m = int.Parse(Console.ReadLine());
+                sum += m;
+            }
+            Console.Write("The summation is= " + sum);
+            Console.ReadKey();
+        }
+    }
+}
+_________________________________________________________________________________________________________________________________
+
+using System;
+namespace Csharp
+{
+    class Csharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i, j, w, s, r,counter=1;
+            Console.Write("Enter number of rows= ");
+            r = Convert.ToInt32(Console.ReadLine());
+            for (i = 1; i <= r; i++)
+            {
+                for(j=1;j<=r-i;j++)
+                    Console.Write(" ");
+                for(j=1;j<=i;j++)
+                    Console.Write(counter++ + " ");
+                    Console.Write("\n");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+_______________________________________________________________________________________________________________________________
+
+using System;
+namespace Csharp
+{
+    class Csharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i, n, sum = 0;
+            Console.Write("Enter n= ");
+            n = int.Parse(Console.ReadLine());
+            for (i = 1; i < n; i++)
+            {
+                if (i == 5)
+                    continue;
+                sum += i;
+            }
+            Console.Write(sum);
+            Console.ReadKey();
+        }
+    }
+}
+________________________________________________________________________________________________________________________________________
+
+using System;
+namespace Csharp
+{
+    class Csharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int i, n;
+            Console.Write("Enter n= ");
+            n = int.Parse(Console.ReadLine());
+            int[] x = new int[n];
+            for (i = 0; i < x.Length; i++)
+            {
+                x[i] = int.Parse(Console.ReadLine());
+            }
+            Console.Write("\nThe array in reverse order is= ");
+            for (i = x.Length - 1; i >= 0; i--)
+            {
+                Console.Write(x[i] + " ");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+
+_________________________________________________________________________________________
+
+
+using System;
+namespace Csharp
+{
+    class Csharp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor=ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("Enter the array\n");
+            int[,] x = new int[3,3];
+            int[,] y = new int[3,3];
+            int i, j;
+            for (i = 0; i < x.GetLength(0); i++)
+            {
+                for (j = 0; j < x.GetLength(1); j++)
+                {
+                    Console.Write("Element_[{0},{1}] ",i,j);
+                    x[i, j] = int.Parse(Console.ReadLine());
+                }
+            }
+            Console.Write("The even elements= ");
+            for (i = 0; i < x.GetLength(0); i++)
+            {
+                for (j = 0; j < x.GetLength(1); j++)
+                {
+                    if(x[i,j]%2==0)
+                        Console.Write(x[i,j] + " ");
+                }
+            }
+            Console.Write("\nThe odd elements= ");
+            for (i = 0; i < x.GetLength(0); i++)
+            {
+                for (j = 0; j < x.GetLength(1); j++)
+                {
+                    if(x[i,j]%2!=0)
+                        Console.Write(x[i,j] + " ");
+                }
+            }
+            Console.ReadKey();
+        }
+    }
+}
