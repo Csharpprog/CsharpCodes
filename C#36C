@@ -1,0 +1,32 @@
+using System;
+namespace google
+{
+    class csharp
+    {
+        static int sumw(int[]x)
+        {
+            int i,s=0;
+            for (i = 0; i < x.Length; i++)
+                s += x[i];
+            return s;
+        }
+
+        static void Main(string[] args)
+        {
+            Console.Title = "C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            int j, l;
+            Console.Write("Enter array size= ");
+            j = Convert.ToInt32(Console.ReadLine());
+            int[] y= new int[j];
+            for (l = 0; l < y.Length; l++)
+            {
+                Console.Write("Element[{0}] = ",l);
+                y[l] = int.Parse(Console.ReadLine());
+            }
+            Console.Write("The summation is= " + sumw(y));
+            Console.ReadKey();
+        }
+    }
+}
