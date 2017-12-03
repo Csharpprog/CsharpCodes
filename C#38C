@@ -1,0 +1,79 @@
+using System;
+namespace sharpC
+{
+    class chsarp
+    {
+        static void Main(string[] args)
+        {
+            Console.Title="C# ";
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor=ConsoleColor.Yellow;
+            One O1 = new One();
+            Two T1=new Two();
+            Three TH=new Three();
+            int n1, n2, n3;
+            Console.Write("Enter n1= ");
+            n1 = Int32.Parse(Console.ReadLine());
+            Console.Write("Enter n2= ");
+            n2 = Int32.Parse(Console.ReadLine());
+            Console.Write("Enter n3= ");
+            n3 = Int32.Parse(Console.ReadLine());
+            Console.Write("\n");
+            char t;
+            Console.Write("Enter your Choice: ");
+            t = char.Parse(Console.ReadLine());
+            switch (t)
+            {
+                    case 'E': O1.Even_Odd();
+                        break;
+                    case 'M': T1.Max_Min(n1,n2);
+                        break;
+                    case'P': TH.POS_NEG(n3);
+                        break;
+                        default:Console.Write("Please! Enter Right choice ");
+                            break;
+            }
+            Console.ReadKey();
+        }
+        
+    }
+
+    class One
+    {
+        public void Even_Odd()
+        {
+            double x;
+            Console.Write("Enter value to Check= ");
+            x=double.Parse(Console.ReadLine());
+            if (x%2== 0)
+                Console.Write(x +" Is Even");
+            else
+                Console.Write(x +" Is Odd");
+
+        }
+    }
+
+    class Two
+    {
+        public void Max_Min(double v1,double v2)
+        {
+            double vv;
+            vv = Math.Max(v1, v2);
+            Console.Write(vv + " is The maximum value between " + v1 + " and " + v2);
+        }
+    }
+
+    class Three
+    {
+        public void POS_NEG(double d1)
+        {
+          if(d1==0)
+              Console.Write("sorry you Enter Zero");
+            else
+              if(d1>0)
+              Console.Write(d1 + " is Positive"); 
+            else
+              Console.Write(d1 + " is Negative");    
+        }
+    }
+}
